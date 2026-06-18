@@ -1,0 +1,22 @@
+name: arcanea-publishing-house
+version: 0.1.0
+description: "Arcanea Publishing House profile — complete modern publishing system on Hermes Agents."
+author: "Frank / Arcanea"
+license: MIT
+hermes_requires: ">=0.16.0"
+
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - agents/
+  - workflows/
+
+env_requires:
+  - name: ARCANAEA_SIS_HOME
+    description: Path to SIS for memory and project graph
+    required: false
+  - name: COMFYUI_URL
+    description: ComfyUI endpoint for visuals
+    required: false

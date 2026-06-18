@@ -1,0 +1,63 @@
+{
+  "mcp_servers": {
+    "youtube_content": {
+      "command": "hermes",
+      "args": ["skill", "run", "youtube-content"],
+      "description": "YouTube transcripts to summaries, threads, blogs, social content"
+    },
+    "comfyui": {
+      "command": "comfy-cli",
+      "args": ["--api"],
+      "description": "Image/video generation for book covers, marketing assets, illustrations",
+      "env": {
+        "COMFYUI_URL": "${COMFYUI_URL}"
+      }
+    },
+    "higgsfield": {
+      "description": "Premium image/video generation for high-end marketing visuals",
+      "env": {
+        "HIGGSFIELD_API_KEY": "${HIGGSFIELD_API_KEY}"
+      }
+    },
+    "sis_memory": {
+      "description": "Arcanea SIS for project graphs, living lore, campaign memory, provenance",
+      "env": {
+        "ARCANEA_SIS_HOME": "${ARCANEA_SIS_HOME}"
+      }
+    },
+    "arcanea_registry": {
+      "description": "Arcanea Registry MCP for discovering skills, agents, and publishing templates",
+      "env": {
+        "SUPABASE_URL": "${SUPABASE_URL}",
+        "SUPABASE_SERVICE_ROLE_KEY": "${SUPABASE_SERVICE_ROLE_KEY}"
+      }
+    },
+    "social_x": {
+      "description": "X/Twitter posting and engagement for Swarm Sun Agents",
+      "env": {
+        "X_API_KEY": "${X_API_KEY}",
+        "X_API_SECRET": "${X_API_SECRET}",
+        "X_ACCESS_TOKEN": "${X_ACCESS_TOKEN}"
+      }
+    },
+    "social_meta": {
+      "description": "Facebook/Instagram posting + ads (via available MCP or browser automation)",
+      "env": {
+        "FACEBOOK_ACCESS_TOKEN": "${FACEBOOK_ACCESS_TOKEN}",
+        "IG_ACCESS_TOKEN": "${IG_ACCESS_TOKEN}"
+      }
+    },
+    "email_outreach": {
+      "description": "Email for influencer pitches and collaboration (Himalaya or equivalent)",
+      "env": {
+        "EMAIL_SMTP": "${EMAIL_SMTP}"
+      }
+    },
+    "ad_platforms": {
+      "description": "Meta Ads, Google Ads, TikTok Ads connectors (when MCPs available in 2026)",
+      "env": {
+        "META_ADS_TOKEN": "${META_ADS_TOKEN}"
+      }
+    }
+  }
+}

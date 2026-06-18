@@ -1,0 +1,44 @@
+name: arcanea-publishing-house
+version: 0.1.0
+description: "Complete Arcanea Publishing House — coordinated swarm for book production, marketing, influencer outreach, ads, and autonomous social media. Built on Hermes + MCPs."
+author: "Frank / Arcanea"
+license: "MIT"
+hermes_requires: ">=0.16.0"
+
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - mcp.json
+  - skills/
+  - agents/
+  - docs/
+  - README.md
+  - distribution.yaml
+  - ARCHITECTURE.md
+  - PLAN.md
+
+env_requires:
+  - name: ARCANEA_SIS_HOME
+    description: "Path to SIS for project graphs, lore memory, and campaign history"
+    required: false
+  - name: COMFYUI_URL
+    description: "Local or remote ComfyUI for visuals"
+    required: false
+  - name: X_API_KEY
+    description: "For Swarm Sun Agents social posting on X"
+    required: false
+  - name: FACEBOOK_ACCESS_TOKEN
+    description: "For IG/FB posting and ads"
+    required: false
+  - name: SUPABASE_URL
+    description: "Optional for Arcanea Registry MCP"
+    required: false
+  - name: SUPABASE_SERVICE_ROLE_KEY
+    description: "Optional admin key for registry"
+    required: false
+
+notes: |
+  This distribution turns Hermes into a full modern publishing house.
+  Swarm Sun Agents can manage their own social profiles.
+  Fully replicable — fork and customize for your creative output.
+  Install with: hermes profile install github.com/frankxai/arcanea-publishing-house --name publishing-house --alias --force -y
