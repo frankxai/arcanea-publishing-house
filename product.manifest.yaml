@@ -1,0 +1,24 @@
+schema_version: "1.0.0"
+product_id: product_author_os
+sku_id: sku_author_os_v1
+name: AuthorOS and Publishing House
+brand_id: brand_starlight_intelligence
+repository: frankxai/arcanea-publishing-house
+status: capability_scaffold
+format: profile_skill_pack_and_publishing_templates
+buyer:
+  segment: independent_authors_worldbuilders_and_small_publishing_teams
+  job: turn_a_manuscript_or_knowledge_source_into_reviewed_multi_format_editions_and_distribution_packets
+promise:
+  outcome: repeatable_editing_production_rights_and_release_workflow
+  boundary: connectors_accounts_and_publication_are_not_included_or_verified_by_default
+activation_event: first_edited_and_format_validated_release_candidate
+commercial:
+  price_state: decision_required
+  models: [ebook_bundle, workbook_templates, author_toolkit, updates, team_license]
+rights:
+  state: edition_level_review_required
+channels: [owned_storefront, gumroad, kdp, apple_books]
+maintenance:
+  cadence: per_edition_and_monthly_platform_policy_review
+stop_rule: no_distribution_or_marketing_claim_until_the_exact_edition_and_account_action_are_verified

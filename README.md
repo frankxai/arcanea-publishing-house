@@ -1,101 +1,27 @@
 # Arcanea Publishing House
 
-**The complete, agentic, replicable modern publishing system — built on Hermes Agent + MCPs + Arcanea creative intelligence.**
+A local-first publishing profile and capability pack for turning manuscripts, knowledge and original worlds into reviewed books, workbooks, audio packets and distribution-ready editions.
 
-One install. A full swarm of specialized agents that handles:
-- Book production (manuscript → published)
-- Marketing campaigns
-- Influencer outreach
-- Ad execution
-- Autonomous social media management (Swarm Sun Agents with their own profiles/voices)
+## Honest current state
 
-Local-first. BYOK. Self-improving. Designed so you (or anyone) can run a professional-grade publishing operation.
+This repository is a capability scaffold. It contains publishing, campaign, outreach and social skills plus example agent personas. Optional MCP, social, ad, email, creative and distribution integrations are not assumed installed or authorized. A generated artifact is not a published book, sent campaign or completed platform action.
 
-## Quick Start (God Mode)
+## Product family
 
-```bash
-# Install the full Publishing House as a Hermes profile
-hermes profile install github.com/frankxai/arcanea-publishing-house --name publishing-house --alias --force -y
+See PRODUCTS.md for AuthorOS Starter, Living Guide Forge, World Bible, Learner & Teacher, Audiobook/Trailer and team-studio editions. Each release uses product.manifest.yaml plus the rights, format, distribution and evidence gates in docs/RIGHTS-DISTRIBUTION-AND-MONETIZATION.md.
 
-# Launch the house
-publishing-house chat
+## Workflow
 
-# Example commands inside
-/publish-book path/to/manuscript.md --world "The Marked"
-/launch-campaign "The Marked" --budget 500 --platforms "x,instagram"
-/swarm-social start --agent SunVoice
-```
+Manuscript or source brief → structural edit → source/canon review → line edit → design and media → PDF/EPUB/print/audio validation → rights review → release candidate → authorized submission → listing verification → outcomes and maintenance.
 
-See [docs/INSTALL.md](docs/INSTALL.md) for full setup (MCPs, credentials, SIS integration).
+Agents may prepare and validate reversible artifacts. Human approval is required for account agreements, ISBN decisions, public prices, platform submissions, ads and spend, outreach, social publication, partner claims and rights declarations.
 
-## The Ecosystem
+## Install and verify
 
-- **arcanea-agent** — The creative intelligence runtime (Hermes fork).
-- **arcanea-agent-profile** — Base Arcanea creative profile.
-- **arcanea-agents** — Registry of agents (publishing-house lives here too).
-- **arcanea-publishing-house** (this) — The full coordinated publishing system.
+Review distribution.yaml, mcp.json and every requested permission before installing as a Hermes profile. Configure credentials only through local/provider-approved secret storage; never commit them. The pack requires Hermes 0.16 or later, but each connector must be installed and verified separately.
 
-## How It Works (Swarm Model)
+Before a release, validate YAML and local links, run the relevant skill checks, inspect every exported file, bind evidence to the edition checksum and record the actual completion state.
 
-Not one agent. A coordinated swarm:
+## Architecture
 
-- **SunEditor** — Developmental editing + lore/canon guard.
-- **ProductionLuminor** — Visuals, formatting, production.
-- **Distributor** — KDP, print, digital storefronts.
-- **MarketingOrchestrator** — Campaigns, ads, copy.
-- **InfluencerScout** — Discovery + personalized outreach.
-- **SwarmSocial Agents** (SunVoice, ThreadWeaver, EngagementSentinel) — Post and manage dedicated social profiles with consistent personas.
-
-All orchestrated by the central Publishing House profile using Hermes delegation, task contracts, cron, and SIS memory.
-
-Agents can have real social identities:
-- Dedicated platform tokens/configs (local only).
-- Persona SOULs.
-- Scheduled autonomous activity via cron + skills.
-
-## Key Capabilities
-
-- End-to-end book pipeline with Arcanea lore/world consistency.
-- Multi-channel marketing (organic social + paid ads + influencer).
-- Content repurposing (YouTube → threads → posts → ads).
-- Provenance & task contracts for every handoff.
-- Self-improving skills after every campaign.
-- Fully replicable — fork the profile and run your own house.
-
-## MCP Connectors (June 2026+)
-
-Wired by default (expandable):
-- youtube-content (repurposing)
-- ComfyUI / image & video gen (covers, assets)
-- SIS memory & Arcanea Registry (lore, projects, skills)
-- Social posting (X, Facebook/IG, etc.)
-- Email outreach
-- Ad platforms
-- Book distribution (KDP + others)
-
-See `mcp.json` and docs/MCP.md.
-
-## Replicability
-
-Everything is built to be copied:
-- Install via Hermes profile.
-- Full docs + example runs.
-- Skills are standalone and publishable.
-- Add your own MCPs or agents.
-- Fork `arcanea-publishing-house` and customize the SOUL/workflows.
-
-See `docs/REPLICABILITY.md` for exact steps to spin up your own publishing house.
-
-## Next Evolution
-
-This is live and evolving. Current focus:
-- Full book production lane.
-- Working social swarm with real profiles.
-- Influencer + ad orchestration.
-- End-to-end example run.
-
-Contributions and forks welcome. The goal is a whole ecosystem of replicable creative publishing operations.
-
-Built with Arcanea soul on the Hermes foundation.
-
-Local-first. Creator-first. Compounding.
+ARCHITECTURE.md describes the intended producer lanes. AGENTS.md and docs/RIGHTS-DISTRIBUTION-AND-MONETIZATION.md define what may be claimed and which actions remain human-gated.
