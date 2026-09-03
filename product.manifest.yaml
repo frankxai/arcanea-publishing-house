@@ -2,7 +2,7 @@ schema_version: "1.0.0"
 product_id: product_author_os
 sku_id: sku_author_os_v1
 name: AuthorOS and Publishing House
-brand_id: pending_starlight_or_arcanea_edition_decision
+brand_id: brand_starlight_intelligence
 repository: frankxai/arcanea-publishing-house
 status: capability_scaffold
 format: profile_skill_pack_and_publishing_templates
