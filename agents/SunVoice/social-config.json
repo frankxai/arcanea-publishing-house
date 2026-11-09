@@ -1,0 +1,25 @@
+{
+  "agent": "SunVoice",
+  "social_profiles": {
+    "x": {
+      "handle": "@SunVoice_Arcanea",
+      "token_env": "SUNVOICE_X_API_KEY",
+      "rules": "Post mythic lore threads, 3-7 tweets. Use evocative language tied to the current book. Log every post to SIS."
+    },
+    "instagram": {
+      "handle": "@sunvoice.arcanea",
+      "token_env": "SUNVOICE_IG_TOKEN",
+      "rules": "Beautiful visuals + poetic captions. Carousel lore drops. Stories for process behind the book."
+    }
+  },
+  "autonomy": {
+    "cron": "daily + campaign bursts",
+    "approval": "auto for organic content; human gate for paid amplification or high-spend",
+    "content_sources": ["book chapters from SIS", "YouTube transcripts via MCP", "world bible", "campaign assets"]
+  },
+  "constraints": [
+    "Never leak creator voice or canon",
+    "Always attribute provenance",
+    "Respect platform terms"
+  ]
+}

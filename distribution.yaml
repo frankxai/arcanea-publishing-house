@@ -1,6 +1,6 @@
 name: arcanea-publishing-house
-version: 0.1.0
-description: "Complete Arcanea Publishing House — coordinated swarm for book production, marketing, influencer outreach, ads, and autonomous social media. Built on Hermes + MCPs."
+version: 0.2.0
+description: "Complete Arcanea Publishing House — coordinated swarm for book production, marketing, influencer outreach, ads, and autonomous social media. Built on Hermes + MCPs. Swarm Sun Agents with own social profiles."
 author: "Frank / Arcanea"
 license: "MIT"
 hermes_requires: ">=0.16.0"
@@ -16,6 +16,9 @@ distribution_owned:
   - distribution.yaml
   - ARCHITECTURE.md
   - PLAN.md
+  - .env.example
+  - docs/example-workflow.sh
+  - docs/example-workflow.ps1
 
 env_requires:
   - name: ARCANEA_SIS_HOME
@@ -25,7 +28,7 @@ env_requires:
     description: "Local or remote ComfyUI for visuals"
     required: false
   - name: X_API_KEY
-    description: "For Swarm Sun Agents social posting on X"
+    description: "For Swarm Sun Agents social posting on X (or per-agent keys)"
     required: false
   - name: FACEBOOK_ACCESS_TOKEN
     description: "For IG/FB posting and ads"
@@ -39,6 +42,8 @@ env_requires:
 
 notes: |
   This distribution turns Hermes into a full modern publishing house.
-  Swarm Sun Agents can manage their own social profiles.
+  Swarm Sun Agents (SunVoice, SunEditor, etc.) can manage their own social profiles via dedicated tokens and configs.
   Fully replicable — fork and customize for your creative output.
   Install with: hermes profile install github.com/frankxai/arcanea-publishing-house --name publishing-house --alias --force -y
+
+  New in v0.2: book-distributor, campaign-launcher, swarm-coordinator, social-profile-manager, full workflow examples (sh + ps1), social-config.json examples.
