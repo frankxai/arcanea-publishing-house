@@ -1,0 +1,16 @@
+Arcanea Publishing House repository notice
+
+Copyright (c) 2026 Frank Riemer. All rights reserved for new original material
+added by the publishing commerce implementation. Public access is not a grant
+to sell, redistribute, train on, or sublicense Arcanea manuscripts, canon,
+characters, brands or commercial publishing systems.
+
+Existing files and prior revisions retain any licenses already granted to them.
+This notice does not revoke historical grants or certify contributor clearance.
+The source manuscript's controlling rights records remain in Arcanea-Labs/Arcanea
+at the pinned revision identified in its edition manifest. Edition approval is
+separate from repository visibility or ownership.
+
+The unmodified Geist font in commerce/assets is separately licensed under the
+SIL Open Font License 1.1 in commerce/assets/Geist-LICENSE.txt. Third-party runtime
+and development packages retain their own licenses.

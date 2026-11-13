@@ -1,0 +1,293 @@
+{
+  "schema": "arcanea.production-run.v1",
+  "release_state": "PREVIEW",
+  "runs": [
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "22f41728-1d12-4bcb-95e6-2dfb95ca8ba4",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "canon_intelligence",
+      "existing_role": "SunEditor",
+      "state": "review_required",
+      "input_sha256": "06dd953a7707e5ecfc37c40c5e3e431ba812f0fd9488184a5bfa366e274e8e45",
+      "output_sha256": "2b4c05a53255f7523c5d2c44b450725b05720d3143f126639e9014a7b216777f",
+      "evidence": {
+        "source_sha256": "ad0182a856cab7890558e591172574b0aceb33f0e1318eb698ead41124a5f5d1",
+        "source_matches": true,
+        "canonical_reference": {
+          "repository": "Arcanea-Labs/Arcanea",
+          "revision": "afc2f17d46bd2659e296edc8b4a2dc4acc0b5cfe",
+          "path": ".arcanea/lore/CANON_LOCKED.md",
+          "sha256": "cac3cd67baf9f808fe394205a2feb3abbab89e94611d938fa68038193ad8e6b0",
+          "authority": "read-only canonical reference; no source text duplicated here"
+        },
+        "canonical_hash_verified": true,
+        "retrieved_passages": {
+          "Seraphina": [],
+          "Elara": [
+            {
+              "line": 62,
+              "text": "| Starweave | 852 Hz | Elara | Vaelith | Perspective, transformation |"
+            },
+            {
+              "line": 159,
+              "text": "\u251c\u2500\u2500 Lyria, Aiyami, Elara, Ino, Shinkami"
+            },
+            {
+              "line": 277,
+              "text": "| **Vaelith Obsidian** | Elara | Exists partially outside spacetime. Objects phase through matter. |"
+            }
+          ]
+        },
+        "findings": [
+          "Seraphina is not found in the verified locked reference; human continuity decision required"
+        ],
+        "canon_promotion": false
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600805,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "c1b485d1-51a8-43d0-9c1f-e1bb9f9099d9",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "manuscript_studio",
+      "existing_role": "SunEditor",
+      "state": "review_required",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "5d856719e3c4d216d2829ca758172fc1401e1a9ebf0aa71f7c2a1a514fade0a4",
+      "evidence": {
+        "source_preserved": true,
+        "word_count": 3742,
+        "letters": 9,
+        "proposal": null
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "9efd3bbf-3750-4557-ad49-6b66cfb54668",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "art_director",
+      "existing_role": "ProductionLuminor",
+      "state": "review_required",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "10b412088f8bc52131d1222e4535d7be413d9baa8a055122e6b57270bc13c5e6",
+      "evidence": {
+        "cover": "typographic concept, not approved final art",
+        "design_source": "Arcanea-Labs/arcanea-ai-app@5dab6d11f33e99085af18e0325aff216cd670d08:packages/design-system/src/tokens.css",
+        "external_generation_cost": 0,
+        "rights_approval": false
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "417e5138-c988-4ff7-9a9d-8d6360be2855",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "editorial_guardian",
+      "existing_role": "SunEditor",
+      "state": "review_required",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "40ef3c2a083d4e406ff267bbdddffc711631f8c0c0cc2221145e270f7e8d07f8",
+      "evidence": {
+        "verdict": "review_required",
+        "rights_state": "edition_attestation_pending",
+        "historical_license_review": "required: canonical repository reports prior CC0 exposure",
+        "findings": [
+          {
+            "location": "Letter V",
+            "severity": "high",
+            "excerpt": "Your loneliness is proof of depth.",
+            "reason": "Unsupported generalization that romanticizes isolation; propose a nuanced revision before sale."
+          },
+          {
+            "location": "Letter III",
+            "severity": "medium",
+            "excerpt": "Failure is selection.",
+            "reason": "Absolute claims about relationships and failure need literary judgment."
+          },
+          {
+            "location": "Preface",
+            "severity": "medium",
+            "reason": "Found-archive framing must remain clearly identified as fiction."
+          },
+          {
+            "location": "Entire manuscript",
+            "severity": "high",
+            "reason": "Originality comparison and contributor/AI provenance are not verified by this automated check."
+          }
+        ]
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "287b0c39-29cc-4541-a9d0-c302ac60cf6f",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "edition_architect",
+      "existing_role": "ProductionLuminor",
+      "state": "prepared",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "6c72dc25ece627d71a3a2029445ede15c34cff2559af4230a469dfed88179326",
+      "evidence": {
+        "artifacts": {
+          "epub": {
+            "hash_matches": true,
+            "bytes": 16274
+          },
+          "pdf": {
+            "hash_matches": true,
+            "bytes": 33823
+          }
+        },
+        "format_evidence": {
+          "source_unchanged": true,
+          "word_count": 3742,
+          "letters": 9,
+          "epub_xml_valid": true,
+          "pdf_header_valid": true,
+          "pdf_ua_certified": false,
+          "epubcheck": "5.4.0: 0 fatal, 0 errors, 0 warnings",
+          "release_approved": false,
+          "epubcheck_evidence": "evidence/epubcheck.json"
+        }
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "98ef368e-41c0-4f62-8110-303716a6bbda",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "commerce_operator",
+      "existing_role": "SunDistributor",
+      "state": "blocked",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "165a908ffb06f24d257609afa96b8e6f0bd1ff2311e0ab74bb54e5deeaf0de5c",
+      "evidence": {
+        "provider": "in-process Stripe REST fixture",
+        "actual_stripe_purchase": false,
+        "storage": "Miniflare workerd D1 + R2",
+        "checkout": "passed",
+        "signature": "verified locally",
+        "duplicate_event": "idempotent",
+        "entitlement": "paid after verified event only",
+        "epub": "exact bytes matched",
+        "pdf": "exact bytes matched",
+        "refund": "revoked old links",
+        "paid_event_after_refund": "remained revoked",
+        "real_revenue_cents": 0,
+        "remote_stripe_sandbox": "blocked: connection exposes live account only"
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "489355ef-48b6-4c75-b391-59467185e03c",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "collector_curator",
+      "existing_role": "SunDistributor",
+      "state": "prepared",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "7091a8d85c67359cc52ce1471364c016e2981e0d131799569f3943b8b3a8d528",
+      "evidence": {
+        "edition_id": "letters-to-the-seeker-digital-rc1",
+        "source_sha256": "ad0182a856cab7890558e591172574b0aceb33f0e1318eb698ead41124a5f5d1",
+        "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+        "digital_supply_cap": null,
+        "collector_supply_cap": null,
+        "collector_status": "proposal_only",
+        "token_rights": "No copyright or commercial license transfers with a token",
+        "adapters": {
+          "base": {
+            "chain_id": 8453,
+            "action": "unsigned_preview_only"
+          },
+          "ethereum": {
+            "chain_id": 1,
+            "action": "unsigned_preview_only"
+          }
+        },
+        "minted": false,
+        "auction_activity": null,
+        "approval_required": true
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "c430def0-d61b-4a16-abc1-4a589a65f290",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "distribution_director",
+      "existing_role": "SunVoice",
+      "state": "review_required",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "2ed8a5819a290c3774002dc8b76e0f9aa8b53b3dae64866e79407df753543c6d",
+      "evidence": {
+        "status": "draft_not_approved_for_posting",
+        "product_title": "Letters to the Seeker",
+        "copy": "Nine letters from the world of Arcanea. On beginning, doubt, failure and becoming. EPUB + PDF reading edition.",
+        "attribution_parameter": "ref",
+        "external_actions": []
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    },
+    {
+      "contract": "arcanea.task.v1",
+      "run_id": "7e18c059-85f8-4aa0-b84a-2d56cb1d5862",
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163",
+      "capability": "revenue_analyst",
+      "existing_role": "SunDistributor",
+      "state": "prepared",
+      "input_sha256": "f02dc5eff98c1ec82ff58a68c9808b12620905ab9a0788b868fc676c1561568f",
+      "output_sha256": "fcf0405daefb7fbcc820dc458522b1bb44a8837fbd6531bc069ecc808b78dba6",
+      "evidence": {
+        "proposed_price_cents": 900,
+        "actual_revenue_cents": 0,
+        "observed_sales": 0,
+        "payment_fees": null,
+        "tax": null,
+        "conversion": null,
+        "model_cost_micros": null,
+        "contribution_margin": null,
+        "reason": "No real transaction, traffic, settled fees or generation cost evidence; do not infer profitability."
+      },
+      "model_version": "deterministic/0.2.0",
+      "cost_micros": 0,
+      "created_at": 1794600493,
+      "release_authority": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "family": "Geist",
+  "source": "https://www.npmjs.com/package/geist/v/1.9.2",
+  "author": "Vercel in collaboration with basement.studio",
+  "file": "commerce/assets/geist-sans.woff2",
+  "sha256": "3626eba547294501c8a4d662c7d9ea3b49734409a4c5a1ccf12fa86429b1687e",
+  "metadata": {
+    "1": "Geist",
+    "2": "Regular",
+    "3": "1.900;VRCL;Geist-Regular",
+    "4": "Geist Regular",
+    "5": "Version 1.900",
+    "6": "Geist-Regular",
+    "8": "Basement.studio, Vercel, Andr\u00e9s Briganti, Guido Ferreyra, Mateo Zaragoza",
+    "9": "Basement.studio, Andr\u00e9s Briganti, Mateo Zaragoza",
+    "13": "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org",
+    "14": "https://openfontlicense.org"
+  },
+  "axes": [
+    {
+      "tag": "wght",
+      "min": 100.0,
+      "default": 400.0,
+      "max": 900.0
+    }
+  ],
+  "glyph_count": 728,
+  "license": "SIL Open Font License 1.1",
+  "license_evidence": "commerce/assets/Geist-LICENSE.txt",
+  "uses": {
+    "self_host_web": "allowed",
+    "redistribute_with_software": "allowed",
+    "modification": "not_performed",
+    "pdf_epub_embedding": "not_used"
+  },
+  "owner": "Frank Riemer",
+  "review": "metadata and license inspected; browser specimens recorded by interface audit",
+  "reviewed_on": "2026-11-13"
+}

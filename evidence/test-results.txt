@@ -1,0 +1,58 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> arcanea-publishing-house@0.2.0-rc.1 check
+> npm test && python3 -m unittest discover -s tests
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> arcanea-publishing-house@0.2.0-rc.1 pretest
+> npm run build
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> arcanea-publishing-house@0.2.0-rc.1 build
+> node scripts/build-commerce.mjs
+
+Built dist/worker.mjs (Worker preview, no production deployment).
+
+> arcanea-publishing-house@0.2.0-rc.1 test
+> node --test commerce/test/*.test.mjs
+
+✔ reading edition is uncapped and does not transfer IP (1.076442ms)
+✔ Base and Ethereum adapters return unsigned preparation only (0.247624ms)
+✔ invalid collector supply or chain is rejected (0.483218ms)
+✔ a live API key cannot enable checkout or make a Stripe request (3600.809733ms)
+✔ full fixture transaction: checkout → verified webhook → entitlement → exact EPUB/PDF → refund revokes issued URLs (3798.075319ms)
+✔ same browser retry reuses the checkout session (18.863832ms)
+✔ browser success page never grants access (4.94892ms)
+✔ cross-origin checkout rejected (4.065448ms)
+✔ forged signature rejected (3.499024ms)
+✔ expired signature rejected even with valid HMAC (3.680737ms)
+✔ future-dated signature rejected (2.790506ms)
+✔ key rotation accepts a valid v1 among other signatures (4.676799ms)
+✔ live webhook rejected (2.936967ms)
+✔ unpaid completion grants no entitlement; later paid event fulfills (29.136525ms)
+✔ amount mismatch fails closed (18.814793ms)
+✔ manifest mismatch fails closed (18.658453ms)
+✔ unknown order fails closed (6.016448ms)
+✔ refund before paid webhook remains revoked (30.597328ms)
+✔ tampered and expired download signatures rejected (30.052711ms)
+✔ corrupted R2 bytes are rejected even with matching metadata (42.658431ms)
+✔ operator data protected; no approval write API (10.920621ms)
+✔ authenticated agent runs sync with canonical digests and reject tampering (13.999431ms)
+✔ streamed oversize checkout body and malformed JSON are rejected (11.879275ms)
+✔ raw artifact paths are not public (3.42324ms)
+✔ changed manifest or missing approval disables checkout (25.660266ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4736.097362
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.006s
+
+OK
