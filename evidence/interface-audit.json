@@ -6,12 +6,12 @@
       "width": 375,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 10826,
+      "load_plus_audit_ms": 10534,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 9368,
+          "lcp": 9212,
           "cls": 0.0071167999999999995
         }
       }
@@ -21,13 +21,13 @@
       "width": 375,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 2039,
+      "load_plus_audit_ms": 2055,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 144,
-          "cls": 0.013343999999999998
+          "lcp": 160,
+          "cls": 0
         }
       }
     },
@@ -36,13 +36,13 @@
       "width": 375,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 1197,
+      "load_plus_audit_ms": 1204,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 172,
-          "cls": 0.008335945333333334
+          "lcp": 120,
+          "cls": 0.0026197453333333333
         }
       }
     },
@@ -55,13 +55,13 @@
       "width": 768,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 12824,
+      "load_plus_audit_ms": 11559,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 11508,
-          "cls": 0.007982999999999999
+          "lcp": 10352,
+          "cls": 0
         }
       }
     },
@@ -70,13 +70,13 @@
       "width": 768,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 1791,
+      "load_plus_audit_ms": 1940,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 188,
-          "cls": 0.0137485
+          "lcp": 244,
+          "cls": 0
         }
       }
     },
@@ -85,13 +85,13 @@
       "width": 768,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 1240,
+      "load_plus_audit_ms": 1512,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 132,
-          "cls": 0.00590728125
+          "lcp": 376,
+          "cls": 0.00126328125
         }
       }
     },
@@ -100,12 +100,12 @@
       "width": 1440,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 11698,
+      "load_plus_audit_ms": 10521,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 10220,
+          "lcp": 9032,
           "cls": 0.00554375
         }
       }
@@ -115,13 +115,13 @@
       "width": 1440,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 1809,
+      "load_plus_audit_ms": 2111,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 168,
-          "cls": 0.0125575
+          "lcp": 172,
+          "cls": 0.004549861111111111
         }
       }
     },
@@ -130,13 +130,13 @@
       "width": 1440,
       "violations": [],
       "horizontal_overflow": false,
-      "load_plus_audit_ms": 1171,
+      "load_plus_audit_ms": 1205,
       "rendering": {
         "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
         "geist_loaded": true,
         "lab": {
-          "lcp": 164,
-          "cls": 0.004101350308641975
+          "lcp": 120,
+          "cls": 0.0008763503086419754
         }
       }
     }

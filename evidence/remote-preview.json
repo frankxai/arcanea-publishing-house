@@ -33,10 +33,10 @@
   "run_count": 18,
   "sandbox_orders": [],
   "real_revenue_cents": 0,
-  "version_id": "f8a5af04-c427-4d1a-8a38-1fa28a34b973",
+  "version_id": "31cf9c40-d0e0-4a02-9c14-6e49cab63ef0",
   "capabilities_reported": 9,
-  "source_commit": "d506a9db4ff1ed9ff729b21fc1193688a4634363",
-  "worker_sha256": "71b26eafaed9114a92f911fe7ccddf7471ad9f94185773ecd1dc4d34ebb80144",
+  "source_commit": "36eaf796e276bd3a655f0c615305703f6070aee7",
+  "worker_sha256": "6c0c07eb0f7c7834ded179357b51cf328f521234c3116b2ede3642f51da99e39",
   "collector_mint_enabled": false,
   "production_deployments": 0
 }

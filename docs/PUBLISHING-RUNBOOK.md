@@ -71,6 +71,7 @@ public production/readiness endpoints.
   historical licensing exposure, originality comparison and contributor/AI
   attribution still need human review.
 - PDF tagging and independent reading-system/manual accessibility testing remain.
+- Cold storefront LCP in the proxy-based remote lab initially measured 9–12 seconds. Font preload and versioned caching were added; final lab timings are in `evidence/interface-audit.json`. No direct-network Web Vitals or field-performance pass is claimed.
 - A browser receipt is implemented. Cross-device account recovery and verified
   transactional email delivery remain launch blockers for a public paid product.
 - €9 is a test-price proposal. Tax/invoicing, final reader license, refund/support

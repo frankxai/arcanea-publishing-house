@@ -4,5 +4,9 @@
   "dependency_audit": "0 vulnerabilities",
   "browser_install": "failed: ubuntu-latest resolved to unsupported Ubuntu 26.04 for Playwright 1.56.1",
   "fix": "pin browser CI to ubuntu-24.04",
-  "rerun": "pending"
+  "rerun": "success",
+  "verified_code_commit": "36eaf796e276bd3a655f0c615305703f6070aee7",
+  "verified_run": "https://github.com/frankxai/arcanea-publishing-house/actions/runs/43500461263",
+  "browser_audit": "9 screens, zero WCAG A/AA violations or overflows",
+  "other_workflows": "Edition release gate and Product Studio contract succeeded"
 }
