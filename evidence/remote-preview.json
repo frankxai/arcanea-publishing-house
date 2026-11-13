@@ -33,5 +33,10 @@
   "run_count": 18,
   "sandbox_orders": [],
   "real_revenue_cents": 0,
-  "version_id": "a62b106a-3d12-4a58-ba68-dd802eec304c"
+  "version_id": "f8a5af04-c427-4d1a-8a38-1fa28a34b973",
+  "capabilities_reported": 9,
+  "source_commit": "d506a9db4ff1ed9ff729b21fc1193688a4634363",
+  "worker_sha256": "71b26eafaed9114a92f911fe7ccddf7471ad9f94185773ecd1dc4d34ebb80144",
+  "collector_mint_enabled": false,
+  "production_deployments": 0
 }

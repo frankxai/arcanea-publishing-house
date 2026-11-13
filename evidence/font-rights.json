@@ -35,5 +35,6 @@
   },
   "owner": "Frank Riemer",
   "review": "metadata and license inspected; browser specimens recorded by interface audit",
-  "reviewed_on": "2026-11-13"
+  "reviewed_on": "2026-11-13",
+  "browser_verification": "Loaded Geist at 375, 768, 1440 on the exact remote preview; see interface-audit.json"
 }

@@ -18,31 +18,31 @@ Built dist/worker.mjs (Worker preview, no production deployment).
 > arcanea-publishing-house@0.2.0-rc.1 test
 > node --test commerce/test/*.test.mjs
 
-✔ reading edition is uncapped and does not transfer IP (1.076442ms)
-✔ Base and Ethereum adapters return unsigned preparation only (0.247624ms)
-✔ invalid collector supply or chain is rejected (0.483218ms)
-✔ a live API key cannot enable checkout or make a Stripe request (3600.809733ms)
-✔ full fixture transaction: checkout → verified webhook → entitlement → exact EPUB/PDF → refund revokes issued URLs (3798.075319ms)
-✔ same browser retry reuses the checkout session (18.863832ms)
-✔ browser success page never grants access (4.94892ms)
-✔ cross-origin checkout rejected (4.065448ms)
-✔ forged signature rejected (3.499024ms)
-✔ expired signature rejected even with valid HMAC (3.680737ms)
-✔ future-dated signature rejected (2.790506ms)
-✔ key rotation accepts a valid v1 among other signatures (4.676799ms)
-✔ live webhook rejected (2.936967ms)
-✔ unpaid completion grants no entitlement; later paid event fulfills (29.136525ms)
-✔ amount mismatch fails closed (18.814793ms)
-✔ manifest mismatch fails closed (18.658453ms)
-✔ unknown order fails closed (6.016448ms)
-✔ refund before paid webhook remains revoked (30.597328ms)
-✔ tampered and expired download signatures rejected (30.052711ms)
-✔ corrupted R2 bytes are rejected even with matching metadata (42.658431ms)
-✔ operator data protected; no approval write API (10.920621ms)
-✔ authenticated agent runs sync with canonical digests and reject tampering (13.999431ms)
-✔ streamed oversize checkout body and malformed JSON are rejected (11.879275ms)
-✔ raw artifact paths are not public (3.42324ms)
-✔ changed manifest or missing approval disables checkout (25.660266ms)
+✔ reading edition is uncapped and does not transfer IP (1.071123ms)
+✔ Base and Ethereum adapters return unsigned preparation only (0.22575ms)
+✔ invalid collector supply or chain is rejected (0.314604ms)
+✔ a live API key cannot enable checkout or make a Stripe request (3418.401763ms)
+✔ full fixture transaction: checkout → verified webhook → entitlement → exact EPUB/PDF → refund revokes issued URLs (3546.413158ms)
+✔ same browser retry reuses the checkout session (15.756678ms)
+✔ browser success page never grants access (5.172739ms)
+✔ cross-origin checkout rejected (1.671517ms)
+✔ forged signature rejected (2.735008ms)
+✔ expired signature rejected even with valid HMAC (2.7695ms)
+✔ future-dated signature rejected (2.731353ms)
+✔ key rotation accepts a valid v1 among other signatures (4.673778ms)
+✔ live webhook rejected (3.139117ms)
+✔ unpaid completion grants no entitlement; later paid event fulfills (27.907841ms)
+✔ amount mismatch fails closed (15.9374ms)
+✔ manifest mismatch fails closed (14.826882ms)
+✔ unknown order fails closed (4.709513ms)
+✔ refund before paid webhook remains revoked (21.028927ms)
+✔ tampered and expired download signatures rejected (22.659192ms)
+✔ corrupted R2 bytes are rejected even with matching metadata (34.123466ms)
+✔ operator data protected; no approval write API (10.218127ms)
+✔ authenticated agent runs sync with canonical digests and reject tampering (12.463338ms)
+✔ streamed oversize checkout body and malformed JSON are rejected (9.701238ms)
+✔ raw artifact paths are not public (2.525984ms)
+✔ changed manifest or missing approval disables checkout (19.16473ms)
 ℹ tests 25
 ℹ suites 0
 ℹ pass 25
@@ -50,9 +50,9 @@ Built dist/worker.mjs (Worker preview, no production deployment).
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 4736.097362
+ℹ duration_ms 4992.797362
 ............
 ----------------------------------------------------------------------
-Ran 12 tests in 0.006s
+Ran 12 tests in 0.005s
 
 OK

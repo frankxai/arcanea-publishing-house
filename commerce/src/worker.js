@@ -163,7 +163,7 @@ async function route(req,env) {
   if(path==='/') return new Response(storefront(edition),{headers:{'content-type':'text/html; charset=utf-8'}});
   if(path==='/ops') return new Response(dashboard(edition),{headers:{'content-type':'text/html; charset=utf-8'}});
   if(path==='/receipt') return new Response(receipt(),{headers:{'content-type':'text/html; charset=utf-8'}});
-  if(path==='/fonts/geist-sans.woff2') return new Response(Uint8Array.from(atob(geistFont),c=>c.charCodeAt(0)),{headers:{'content-type':'font/woff2'}});
+  if(path==='/fonts/geist-1.9.2.woff2') return new Response(Uint8Array.from(atob(geistFont),c=>c.charCodeAt(0)),{headers:{'content-type':'font/woff2'}});
   if(path==='/styles.css') return new Response(styles,{headers:{'content-type':'text/css'}});
   if(path==='/client.js') return new Response(clientScript,{headers:{'content-type':'text/javascript'}});
   if(path==='/api/readiness') return json(await readiness(env));
@@ -182,5 +182,6 @@ export default {async fetch(req,env) {
  try {response=await route(req,env);} catch(error) {response=problem(error instanceof RangeError?'Request too large':'Request could not be processed',error instanceof RangeError?413:error instanceof SyntaxError?400:500);}
  const h=new Headers(response.headers);
  for(const [k,v] of Object.entries({'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer','X-Robots-Tag':'noindex, nofollow','Permissions-Policy':'camera=(), microphone=(), geolocation=()','Content-Security-Policy':"default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"})) h.set(k,v);
+ if(new URL(req.url).pathname==='/fonts/geist-1.9.2.woff2' && response.status===200)h.set('Cache-Control','public, max-age=31536000, immutable');
  return new Response(response.body,{status:response.status,headers:h});
 }};

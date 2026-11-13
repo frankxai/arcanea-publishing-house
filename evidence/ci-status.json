@@ -1,0 +1,8 @@
+{
+  "first_run": "https://github.com/frankxai/arcanea-publishing-house/actions/runs/43500130940",
+  "unit_integration_tests": "37 passed",
+  "dependency_audit": "0 vulnerabilities",
+  "browser_install": "failed: ubuntu-latest resolved to unsupported Ubuntu 26.04 for Playwright 1.56.1",
+  "fix": "pin browser CI to ubuntu-24.04",
+  "rerun": "pending"
+}
