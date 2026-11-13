@@ -1,0 +1,144 @@
+{
+  "source": "https://review-arcanea-publishing-preview.frankxai.workers.dev",
+  "results": [
+    {
+      "path": "/",
+      "width": 375,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 10534,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 9212,
+          "cls": 0.0071167999999999995
+        }
+      }
+    },
+    {
+      "path": "/ops",
+      "width": 375,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 2055,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 160,
+          "cls": 0
+        }
+      }
+    },
+    {
+      "path": "/receipt",
+      "width": 375,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 1204,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 120,
+          "cls": 0.0026197453333333333
+        }
+      }
+    },
+    {
+      "interaction": "blocked checkout gives an honest status",
+      "passed": true
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 11559,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 10352,
+          "cls": 0
+        }
+      }
+    },
+    {
+      "path": "/ops",
+      "width": 768,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 1940,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 244,
+          "cls": 0
+        }
+      }
+    },
+    {
+      "path": "/receipt",
+      "width": 768,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 1512,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 376,
+          "cls": 0.00126328125
+        }
+      }
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 10521,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 9032,
+          "cls": 0.00554375
+        }
+      }
+    },
+    {
+      "path": "/ops",
+      "width": 1440,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 2111,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 172,
+          "cls": 0.004549861111111111
+        }
+      }
+    },
+    {
+      "path": "/receipt",
+      "width": 1440,
+      "violations": [],
+      "horizontal_overflow": false,
+      "load_plus_audit_ms": 1205,
+      "rendering": {
+        "computed_font": "Geist, \"Geist Sans\", system-ui, sans-serif",
+        "geist_loaded": true,
+        "lab": {
+          "lcp": 120,
+          "cls": 0.0008763503086419754
+        }
+      }
+    }
+  ]
+}

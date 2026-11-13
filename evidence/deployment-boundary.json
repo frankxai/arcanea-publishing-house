@@ -1,0 +1,14 @@
+{
+  "worker": "arcanea-publishing-preview",
+  "production_workers_dev_enabled": false,
+  "preview_urls_enabled": true,
+  "production_deployments": [],
+  "r2_bucket": "arcanea-publishing-preview-private",
+  "r2_managed_public_access": false,
+  "r2_custom_domains": [],
+  "stripe_key_installed": false,
+  "stripe_webhook_secret_installed": false,
+  "actual_stripe_purchases": 0,
+  "actual_revenue_cents": 0,
+  "temporary_fulfillment_orders_remaining": 0
+}

@@ -1,0 +1,9 @@
+{
+ "name":"arcanea-publishing-preview",
+ "main":"commerce/src/worker.js",
+ "compatibility_date":"2026-07-30",
+ "workers_dev":false,
+ "preview_urls":true,
+ "d1_databases":[{"binding":"DB","database_name":"arcanea-publishing-preview","database_id":"64e42c60-c242-4214-9220-0cd58ae395db","migrations_dir":"commerce/migrations"}],
+ "r2_buckets":[{"binding":"BOOKS","bucket_name":"arcanea-publishing-preview-private"}]
+}

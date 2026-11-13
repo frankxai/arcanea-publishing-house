@@ -82,3 +82,20 @@ Configured via `mcp.json`:
 ## Status
 
 See `PUBLISHING_HOUSE_STATUS.md` and `PLAN.md` for current state.
+
+## Executable publishing preview (issue #3)
+
+The additive `commerce/` Worker implements sandbox-only Checkout, signed webhook
+verification, D1 entitlements, private R2 delivery and refund revocation. The
+first source-preserved review edition is **Letters to the Seeker**, EPUB + PDF.
+No live sale or genuine Stripe sandbox purchase is claimed.
+
+- [Verified inventory](docs/IMPLEMENTATION-INVENTORY-20261113.md)
+- [Operations, test evidence and launch gates](docs/PUBLISHING-RUNBOOK.md)
+- [Production runner](tools/publishing_agent.py)
+- [Edition and review](editions/letters-to-the-seeker/edition.json)
+- [Commerce boundary decision](docs/ADR-0001-PUBLISHING-PREVIEW.md)
+
+Run `npm ci --ignore-scripts && npm run check`; run `npm run test:interface` for
+browser screenshots and WCAG checks. Run `python3 tools/publishing_agent.py` to
+execute the nine production capabilities and record durable task evidence.

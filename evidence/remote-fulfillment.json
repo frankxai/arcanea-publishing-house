@@ -1,0 +1,19 @@
+{
+  "fixture": "remote D1 entitlement injected for storage verification only",
+  "actual_stripe_payment": false,
+  "status": "paid",
+  "downloads": {
+    "pdf": {
+      "bytes": 33823,
+      "sha256": "574a83305c48929eb56ee747a9c9283c8c7c831c2f0b5214854c2706871dfdd4",
+      "exact_match": true
+    },
+    "epub": {
+      "bytes": 16274,
+      "sha256": "80a9905c1fafe30aae08be7e395e2efa1eae9de4904941d42ead57ebaf933b21",
+      "exact_match": true
+    }
+  },
+  "revocation": "previously issued link returned HTTP 403 after explicit fixture revocation",
+  "actual_stripe_refund": false
+}

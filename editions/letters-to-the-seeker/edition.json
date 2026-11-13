@@ -1,0 +1,51 @@
+{
+  "schema_version": "arcanea.edition.v1",
+  "edition_id": "letters-to-the-seeker-digital-rc1",
+  "title": "Letters to the Seeker",
+  "subtitle": "Nine letters from the world of Arcanea",
+  "imprint": "Arcanea Publishing House",
+  "language": "en",
+  "word_count": 3742,
+  "creator_attribution": "Arcanea; contributor credits require confirmation",
+  "rights_owner_claimed": "Frank Riemer",
+  "rights_evidence": "https://github.com/Arcanea-Labs/Arcanea/blob/afc2f17d46bd2659e296edc8b4a2dc4acc0b5cfe/LICENSING.md",
+  "rights_state": "edition_attestation_pending",
+  "historical_license_review": "required: canonical repository reports prior CC0 exposure",
+  "editorial_state": "review_required",
+  "canon_state": "existing_source_snapshot_not_new_canon",
+  "price_cents": 900,
+  "currency": "EUR",
+  "price_state": "proposal_for_test_only",
+  "release_state": "PREVIEW",
+  "supply_cap": null,
+  "license": "Personal reading license proposed; no IP transfer; approval pending",
+  "source": {
+    "repository": "Arcanea-Labs/Arcanea",
+    "revision": "afc2f17d46bd2659e296edc8b4a2dc4acc0b5cfe",
+    "path": "book/wisdom-scrolls/IV_LETTERS_TO_THE_SEEKER.md",
+    "sha256": "ad0182a856cab7890558e591172574b0aceb33f0e1318eb698ead41124a5f5d1"
+  },
+  "art": {
+    "type": "typographic_cover_concept",
+    "illustrations": [],
+    "design_source": "Arcanea-Labs/arcanea-ai-app@5dab6d11f33e99085af18e0325aff216cd670d08:packages/design-system/src/tokens.css"
+  },
+  "accessibility": {
+    "epub": "Semantic XHTML, navigation, language and reading order; EPUBCheck and reader testing required",
+    "pdf": "Selectable text, bookmarks and language; PDF/UA not certified"
+  },
+  "approvals": [],
+  "artifacts": {
+    "epub": {
+      "key": "letters-to-the-seeker-digital-rc1/80a9905c1fafe30aae08be7e395e2efa1eae9de4904941d42ead57ebaf933b21/letters-to-the-seeker.epub",
+      "sha256": "80a9905c1fafe30aae08be7e395e2efa1eae9de4904941d42ead57ebaf933b21",
+      "bytes": 16274
+    },
+    "pdf": {
+      "key": "letters-to-the-seeker-digital-rc1/574a83305c48929eb56ee747a9c9283c8c7c831c2f0b5214854c2706871dfdd4/letters-to-the-seeker.pdf",
+      "sha256": "574a83305c48929eb56ee747a9c9283c8c7c831c2f0b5214854c2706871dfdd4",
+      "bytes": 33823
+    }
+  },
+  "manifest_sha256": "70de484c1c2fa91bf61f79524a399dd9e3e0955acf9ce3d3495a97d4f2b90163"
+}
