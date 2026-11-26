@@ -1,0 +1,20 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://arcanea.ai/schemas/edition-provenance.v1.json",
+ "title":"Arcanea collector proposal provenance",
+ "type":"object",
+ "additionalProperties":false,
+ "required":["edition_id","manifest_sha256","source_sha256","rights_owner_claimed","rights_state","collector_status","supply_cap","token_rights","chain","minted"],
+ "properties":{
+  "edition_id":{"type":"string","pattern":"^[a-z0-9-]+$"},
+  "manifest_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+  "source_sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},
+  "rights_owner_claimed":{"type":"string","minLength":1},
+  "rights_state":{"enum":["pending","approved"]},
+  "collector_status":{"enum":["proposal","approved"]},
+  "supply_cap":{"type":["integer","null"],"minimum":1},
+  "token_rights":{"const":"No copyright or commercial license transfers with a token"},
+  "chain":{"enum":["base","ethereum",null]},
+  "minted":{"const":false}
+ }
+}

@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import {Miniflare} from 'miniflare';
+test('a live API key cannot enable checkout or make a Stripe request',async()=>{
+ let calls=0;const mf=new Miniflare({modules:true,script:await readFile('dist/worker.mjs','utf8'),compatibilityDate:'2026-07-30',d1Databases:['DB'],r2Buckets:['BOOKS'],bindings:{STRIPE_SECRET_KEY:'sk_live_invalid_fixture'},outboundService:async()=>{calls++;throw new Error('Live network must never be reached');}});
+ try{const db=await mf.getD1Database('DB');await db.exec((await readFile('commerce/migrations/0001.sql','utf8')).replace(/\n/g,' '));const ready=await(await mf.dispatchFetch('https://arcanea.test/api/readiness')).json();assert.equal(ready.checks.stripe_test_key,false);assert.equal(ready.checkout_enabled,false);const response=await mf.dispatchFetch('https://arcanea.test/api/checkout',{method:'POST',headers:{origin:'https://arcanea.test'},body:'{}'});assert.equal(response.status,503);assert.equal(calls,0);}finally{await mf.dispose();}
+});

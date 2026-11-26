@@ -1,0 +1,42 @@
+{
+  "url": "https://review-arcanea-publishing-preview.frankxai.workers.dev",
+  "artifacts": [
+    {
+      "stored": true,
+      "key": "letters-to-the-seeker-digital-rc1/80a9905c1fafe30aae08be7e395e2efa1eae9de4904941d42ead57ebaf933b21/letters-to-the-seeker.epub",
+      "sha256": "80a9905c1fafe30aae08be7e395e2efa1eae9de4904941d42ead57ebaf933b21"
+    },
+    {
+      "stored": true,
+      "key": "letters-to-the-seeker-digital-rc1/574a83305c48929eb56ee747a9c9283c8c7c831c2f0b5214854c2706871dfdd4/letters-to-the-seeker.pdf",
+      "sha256": "574a83305c48929eb56ee747a9c9283c8c7c831c2f0b5214854c2706871dfdd4"
+    }
+  ],
+  "readiness": {
+    "edition_id": "letters-to-the-seeker-digital-rc1",
+    "mode": "sandbox-only",
+    "checks": {
+      "stripe_test_key": false,
+      "webhook_secret": false,
+      "download_secret": true,
+      "approvals": false,
+      "artifacts": true
+    },
+    "checkout_enabled": false,
+    "price_cents": 900,
+    "price_state": "proposal",
+    "release_state": "PREVIEW",
+    "real_sales": 0
+  },
+  "actual_stripe_purchase": false,
+  "production_deployment": false,
+  "run_count": 18,
+  "sandbox_orders": [],
+  "real_revenue_cents": 0,
+  "version_id": "31cf9c40-d0e0-4a02-9c14-6e49cab63ef0",
+  "capabilities_reported": 9,
+  "source_commit": "36eaf796e276bd3a655f0c615305703f6070aee7",
+  "worker_sha256": "6c0c07eb0f7c7834ded179357b51cf328f521234c3116b2ede3642f51da99e39",
+  "collector_mint_enabled": false,
+  "production_deployments": 0
+}

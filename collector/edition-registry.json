@@ -1,0 +1,16 @@
+{
+  "schema": "arcanea.edition-registry.v1",
+  "canonical_repository": "frankxai/arcanea-publishing-house",
+  "editions": [
+    {
+      "edition_id": "letters-to-the-seeker-digital-rc1",
+      "manifest": "editions/letters-to-the-seeker/edition.json",
+      "type": "digital",
+      "status": "preview",
+      "supply_cap": null,
+      "collector_derivatives": [],
+      "minted": false,
+      "auction_activity": null
+    }
+  ]
+}

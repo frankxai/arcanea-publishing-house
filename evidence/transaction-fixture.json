@@ -1,0 +1,14 @@
+{
+  "provider": "in-process Stripe REST fixture",
+  "actual_stripe_purchase": false,
+  "storage": "Miniflare workerd D1 + R2",
+  "checkout": "passed",
+  "signature": "verified locally",
+  "duplicate_event": "idempotent",
+  "entitlement": "paid after verified event only",
+  "epub": "exact bytes matched",
+  "pdf": "exact bytes matched",
+  "refund": "revoked old links",
+  "paid_event_after_refund": "remained revoked",
+  "real_revenue_cents": 0
+}
